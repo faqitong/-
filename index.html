@@ -1,0 +1,2077 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法契通 - 专业合同模板与法律文书代写 | 会员享8折 | 15882278642</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+        }
+
+        /* 顶部通知栏 */
+        .top-bar {
+            background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .top-bar .phone {
+            font-weight: bold;
+            font-size: 20px;
+            color: #ffd700;
+            margin-left: 10px;
+        }
+
+        /* 导航栏 */
+        nav {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px 0;
+            position: sticky;
+            top: 48px;
+            z-index: 999;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1e3c72;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+
+        .nav-links a:hover {
+            color: #2a5298;
+        }
+
+        .user-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .vip-badge {
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #1e3c72;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            animation: shine 2s infinite;
+        }
+
+        @keyframes shine {
+            0%, 100% { box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); }
+            50% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.8); }
+        }
+
+        .btn-nav {
+            padding: 8px 20px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-login {
+            background: transparent;
+            color: #1e3c72;
+            border: 2px solid #1e3c72;
+        }
+
+        .btn-login:hover {
+            background: #1e3c72;
+            color: white;
+        }
+
+        .btn-vip {
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #1e3c72;
+            font-weight: bold;
+        }
+
+        .btn-vip:hover {
+            transform: scale(1.05);
+        }
+
+        /* 英雄区 */
+        .hero {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn-primary {
+            background: #ffd700;
+            color: #1e3c72;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            color: #1e3c72;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #1e3c72;
+            border: 2px solid #1e3c72;
+        }
+
+        .btn-outline:hover {
+            background: #1e3c72;
+            color: white;
+        }
+
+        .btn-small {
+            padding: 6px 15px;
+            font-size: 13px;
+        }
+
+        .btn-buy {
+            background: #e74c3c;
+            color: white;
+            border: none;
+        }
+
+        .btn-buy:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+        }
+
+        .btn-buy-small {
+            padding: 5px 12px;
+            font-size: 12px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-buy-small:hover {
+            background: #c0392b;
+            transform: scale(1.05);
+        }
+
+        .btn-large {
+            font-size: 20px;
+            padding: 18px 50px;
+        }
+
+        /* 模态框通用样式 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.6);
+            overflow: auto;
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 40px;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 20px;
+            position: relative;
+            animation: slideDown 0.3s;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            color: #aaa;
+            font-size: 36px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s;
+            line-height: 1;
+        }
+
+        .close-btn:hover {
+            color: #e74c3c;
+        }
+
+        .modal-title {
+            font-size: 28px;
+            color: #1e3c72;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* 表单样式 */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 600;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #2a5298;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(42, 82, 152, 0.3);
+        }
+
+        .form-switch {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+
+        .form-switch span {
+            color: #2a5298;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .form-switch span:hover {
+            text-decoration: underline;
+        }
+
+        /* 会员弹窗特殊样式 */
+        .vip-features {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+
+        .vip-features h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .vip-features ul {
+            list-style: none;
+        }
+
+        .vip-features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .vip-features li:before {
+            content: "✓";
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .price-box {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .price-box .original {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .price-box .current {
+            color: #e74c3c;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        /* 特色服务 */
+        .features {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #1e3c72;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 50px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #1e3c72;
+        }
+
+        /* 双栏服务入口 */
+        .service-entry {
+            padding: 60px 20px;
+            background: linear-gradient(to bottom, #f0f4f8 0%, #ffffff 100%);
+        }
+
+        .service-entry-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .service-box {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-box.template-box::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+        }
+
+        .service-box.writing-box::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #e74c3c, #c0392b);
+        }
+
+        .service-box h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .service-box.template-box h2 {
+            color: #1e3c72;
+        }
+
+        .service-box.writing-box h2 {
+            color: #e74c3c;
+        }
+
+        .price-highlight {
+            display: inline-block;
+            background: #ffd700;
+            color: #1e3c72;
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 20px;
+            margin: 20px 0;
+        }
+
+        .price-highlight.discount {
+            background: #ffebee;
+            color: #c62828;
+            text-decoration: line-through;
+            margin-right: 10px;
+        }
+
+        .service-features {
+            list-style: none;
+            text-align: left;
+            margin: 30px 0;
+            padding: 0 20px;
+        }
+
+        .service-features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .service-features li:before {
+            content: "✓";
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        /* 合同模板详细列举 */
+        .templates {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .templates-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .vip-banner {
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #1e3c72;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            font-weight: bold;
+            display: none;
+        }
+
+        .vip-banner.active {
+            display: block;
+        }
+
+        .template-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .template-category {
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s;
+            background: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .template-category:hover {
+            border-color: #2a5298;
+            box-shadow: 0 10px 30px rgba(42, 82, 152, 0.15);
+            transform: translateY(-5px);
+        }
+
+        .template-category h3 {
+            color: #1e3c72;
+            font-size: 22px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .template-category > p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .template-list {
+            list-style: none;
+        }
+
+        .template-list li {
+            padding: 12px 0;
+            border-bottom: 1px dashed #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 15px;
+            gap: 10px;
+        }
+
+        .template-list li:last-child {
+            border-bottom: none;
+        }
+
+        .template-info {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .template-name {
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .template-tag {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .template-tag.hot {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .price-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .price-tag {
+            color: #e74c3c;
+            font-weight: bold;
+            font-size: 15px;
+            white-space: nowrap;
+        }
+
+        .price-tag.original {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 13px;
+        }
+
+        .price-tag.discount {
+            color: #e74c3c;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .discount-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        /* 购物车 */
+        .cart-widget {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            background: #1e3c72;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            z-index: 999;
+            transition: transform 0.3s;
+        }
+
+        .cart-widget:hover {
+            transform: scale(1.1);
+        }
+
+        .cart-count {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #e74c3c;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        /* 法律文书代写详细板块 */
+        .document-writing {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+        }
+
+        .writing-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-block;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+        }
+
+        .service-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            border-left: 4px solid #e74c3c;
+            transition: all 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+
+        .service-card h3 {
+            color: #c0392b;
+            font-size: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .service-list {
+            list-style: none;
+        }
+
+        .service-list li {
+            padding: 12px 0;
+            border-bottom: 1px dashed #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .service-list li:last-child {
+            border-bottom: none;
+        }
+
+        .service-name {
+            color: #444;
+            font-size: 15px;
+        }
+
+        .service-price {
+            color: #e74c3c;
+            font-weight: bold;
+            font-size: 15px;
+            white-space: nowrap;
+        }
+
+        .service-price .unit {
+            font-size: 12px;
+            color: #999;
+            margin-left: 2px;
+        }
+
+        .process-section {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            margin-top: 50px;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 auto 20px;
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+        }
+
+        .process-step h4 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .process-step p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* 价格方案 */
+        .pricing {
+            padding: 80px 20px;
+            background: #f5f7fa;
+        }
+
+        .pricing-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .pricing-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            position: relative;
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing-card.featured {
+            border: 3px solid #ffd700;
+            transform: scale(1.05);
+        }
+
+        .badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ffd700;
+            color: #1e3c72;
+            padding: 8px 25px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .pricing-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #1e3c72;
+        }
+
+        .price {
+            font-size: 48px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .price span {
+            font-size: 18px;
+            color: #999;
+        }
+
+        .pricing-features {
+            list-style: none;
+            text-align: left;
+            margin: 30px 0;
+            flex: 1;
+        }
+
+        .pricing-features li {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .pricing-features li:before {
+            content: "✓";
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        /* 法律咨询电话区 */
+        .contact-section {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .contact-section .phone-display {
+            font-size: 56px;
+            font-weight: bold;
+            color: #ffd700;
+            margin: 30px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .contact-features {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .contact-feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+        }
+
+        /* 支付弹窗样式 */
+        .payment-modal .modal-content {
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .payment-content h2 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .payment-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+
+        .payment-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .payment-info h3 {
+            color: #e74c3c;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .payment-info ol {
+            padding-left: 20px;
+            color: #555;
+            line-height: 2;
+        }
+
+        .phone-tip {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        /* 底部 */
+        footer {
+            background: #1a1a2e;
+            color: white;
+            padding: 60px 20px 30px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 20px;
+            color: #ffd700;
+            font-size: 18px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 10px;
+            color: #aaa;
+        }
+
+        .footer-section a {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #333;
+            color: #666;
+        }
+
+        /* 浮动咨询按钮 */
+        .floating-cta {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #e74c3c;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            box-shadow: 0 5px 20px rgba(231, 76, 60, 0.4);
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 1000;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+            70% { box-shadow: 0 0 0 15px rgba(231, 76, 60, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+        }
+
+        .floating-cta:hover {
+            transform: scale(1.1);
+            background: #c0392b;
+        }
+
+        /* 提示消息 */
+        .toast {
+            position: fixed;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-100px);
+            background: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            z-index: 3000;
+            transition: transform 0.3s;
+            font-weight: bold;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+        }
+
+        .toast.error {
+            background: #e74c3c;
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .contact-section .phone-display {
+                font-size: 36px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+
+            .service-entry-container {
+                grid-template-columns: 1fr;
+            }
+
+            .template-categories {
+                grid-template-columns: 1fr;
+            }
+
+            .modal-content {
+                margin: 10% auto;
+                width: 95%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 顶部电话条 -->
+    <div class="top-bar">
+        📞 法律咨询热线：<span class="phone">158-8227-8642</span>（工作时间：9:00-21:00）
+    </div>
+
+    <!-- 导航 -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                ⚖️ 法契通
+            </div>
+            <ul class="nav-links">
+                <li><a href="#templates-detail">合同模板</a></li>
+                <li><a href="#writing-detail">法律文书</a></li>
+                <li><a href="#pricing">开通会员</a></li>
+                <li id="userSection" class="user-area">
+                    <button onclick="showLoginModal()" class="btn-nav btn-login">登录 / 注册</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 提示消息 -->
+    <div id="toast" class="toast"></div>
+
+    <!-- 登录/注册模态框 -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('loginModal')">&times;</span>
+            <h2 class="modal-title" id="loginTitle">用户登录</h2>
+            <form id="loginForm" onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label>手机号</label>
+                    <input type="tel" id="loginPhone" placeholder="请输入手机号" required pattern="[0-9]{11}">
+                </div>
+                <div class="form-group">
+                    <label>密码</label>
+                    <input type="password" id="loginPassword" placeholder="请输入密码" required>
+                </div>
+                <button type="submit" class="btn-submit">立即登录</button>
+            </form>
+            <form id="registerForm" onsubmit="handleRegister(event)" style="display: none;">
+                <div class="form-group">
+                    <label>手机号</label>
+                    <input type="tel" id="regPhone" placeholder="请输入手机号" required pattern="[0-9]{11}">
+                </div>
+                <div class="form-group">
+                    <label>设置密码</label>
+                    <input type="password" id="regPassword" placeholder="请设置密码（至少6位）" required minlength="6">
+                </div>
+                <div class="form-group">
+                    <label>确认密码</label>
+                    <input type="password" id="regConfirm" placeholder="请再次输入密码" required>
+                </div>
+                <button type="submit" class="btn-submit">立即注册</button>
+            </form>
+            <div class="form-switch">
+                <span id="switchText">还没有账号？</span>
+                <span onclick="toggleAuthMode()" id="switchBtn" style="color: #2a5298; cursor: pointer; font-weight: bold;">立即注册</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 开通会员模态框 -->
+    <div id="vipModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('vipModal')">&times;</span>
+            <h2 class="modal-title">🌟 开通年度会员</h2>
+            <div class="vip-features">
+                <h3>会员特权</h3>
+                <ul>
+                    <li>全场合同模板8折优惠</li>
+                    <li>500+份模板免费下载</li>
+                    <li>法律文书代写8折优惠</li>
+                    <li>每月赠送1次免费代写（100元以内）</li>
+                    <li>合同审查不限次数</li>
+                    <li>专属客服优先服务</li>
+                </ul>
+            </div>
+            <div class="price-box">
+                <span class="original">原价 ¥599</span>
+                <span class="current">¥299/年</span>
+            </div>
+            <button onclick="processVipPayment()" class="btn-submit" style="background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); color: #1e3c72;">
+                立即开通会员
+            </button>
+            <p style="margin-top: 15px; color: #666; font-size: 14px; text-align: center;">
+                支付成功后自动升级为会员，有效期365天
+            </p>
+        </div>
+    </div>
+
+    <!-- 支付弹窗 -->
+    <div id="paymentModal" class="modal payment-modal">
+        <div class="modal-content payment-content">
+            <span class="close-btn" onclick="closeModal('paymentModal')">&times;</span>
+            <h2>💳 请使用微信支付</h2>
+            <p style="color: #666; margin-bottom: 20px;">手机扫码或长按识别二维码完成支付</p>
+            
+            <img src=https://i.ibb.co/LdPb7TT9/image.png" 
+                 alt="微信支付二维码" 
+                 id="paymentQrCode" 
+                 style="max-width: 300px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);"
+                 onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27300%27 height=%27400%27%3E%3Crect fill=%27%2307C160%27 width=%27300%27 height=%27400%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-size=%2720%27 fill=%27white%27 text-anchor=%27middle%27%3E%E8%AF%B7%E6%94%BE%E7%BD%AE%E6%82%A8%E7%9A%84%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81%E5%9B%BE%E7%89%87%3C/text%3E%3C/svg%3E'; this.style.width='300px';">
+            
+            <div class="payment-info">
+                <h3>支付说明</h3>
+                <ol>
+                    <li>请使用微信扫描上方二维码</li>
+                    <li>支付金额：<span id="payAmount" style="color: #e74c3c; font-weight: bold;"></span></li>
+                    <li>支付时请在备注中注明：购买内容+手机号</li>
+                    <li>支付完成后，我们将自动发货到您手机</li>
+                </ol>
+            </div>
+            
+            <div class="phone-tip">
+                📞 支付后请拨打 <strong>158-8227-8642</strong> 确认<br>
+                或添加微信：海滨（**滨）
+            </div>
+        </div>
+    </div>
+
+    <!-- 购物车模态框 -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content" style="max-width: 600px;">
+            <span class="close-btn" onclick="closeModal('cartModal')">&times;</span>
+            <h2 class="modal-title">🛒 我的购物车</h2>
+            <div id="cartContent" style="min-height: 200px;">
+                <!-- 动态生成购物车内容 -->
+            </div>
+            <div style="margin-top: 30px; text-align: center;">
+                <button onclick="checkout()" class="btn-submit" style="width: 200px; display: inline-block; margin-right: 20px;">
+                    去结算
+                </button>
+                <button onclick="clearCart()" class="btn-outline" style="width: 150px; display: inline-block; padding: 12px;">
+                    清空购物车
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 购物车小部件 -->
+    <div class="cart-widget" onclick="showCartModal()">
+        <span style="font-size: 24px;">🛒</span>
+        <span class="cart-count" id="cartCount" style="display: none;">0</span>
+    </div>
+
+    <!-- 英雄区 -->
+    <section class="hero">
+        <h1>专业合同模板 · 法律文书代写</h1>
+        <p>500+份优质合同模板即买即用 | 会员享全场8折优惠<br>专业律师团队保驾护航</p>
+        <div class="cta-buttons">
+            <a href="#templates-detail" class="btn btn-primary">📋 浏览合同模板</a>
+            <a href="#writing-detail" class="btn btn-secondary">✍️ 文书代写服务</a>
+        </div>
+    </section>
+
+    <!-- 特色服务 -->
+    <section class="features">
+        <h2 class="section-title">为什么选择法契通？</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📋</div>
+                <h3>专业审核</h3>
+                <p>所有模板均由执业律师审核，确保条款合法有效，降低法律风险</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>即买即用</h3>
+                <p>Word格式即时下载，支持自定义编辑，5分钟完成专业合同起草</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">✍️</div>
+                <h3>代写服务</h3>
+                <p>专业律师代写法律文书，50元起价，快速交付，支持修改</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌟</div>
+                <h3>会员特权</h3>
+                <p>开通会员享全场8折优惠，免费下载全站模板，专属客服服务</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 双栏服务入口 -->
+    <section class="service-entry">
+        <div class="service-entry-container">
+            <div class="service-box template-box">
+                <h2>📋 合同模板商城</h2>
+                <div id="normalPrice" class="price-highlight">¥19-59/份</div>
+                <div id="vipPriceDisplay" style="display: none;">
+                    <span class="price-highlight discount">¥19-59</span>
+                    <span class="price-highlight">会员8折：¥15-47</span>
+                </div>
+                <p style="color: #666; margin-bottom: 20px;">覆盖经营、房产、劳动、知识产权等全场景</p>
+                <ul class="service-features">
+                    <li>专业律师审核，条款合法有效</li>
+                    <li>Word格式下载，可自由编辑</li>
+                    <li>即买即用，5分钟完成起草</li>
+                    <li id="vipFeature1" style="display: none; color: #e74c3c; font-weight: bold;">✓ 会员享全场8折优惠</li>
+                </ul>
+                <button onclick="scrollToTemplates()" class="btn btn-buy" style="width: 100%;">
+                    浏览全部模板
+                </button>
+            </div>
+            
+            <div class="service-box writing-box">
+                <h2>✍️ 法律文书代写</h2>
+                <div class="price-highlight">50元起</div>
+                <p style="color: #666; margin-bottom: 20px;">起诉状、律师函、合同起草等专业代写</p>
+                <ul class="service-features">
+                    <li>执业5年以上律师亲自撰写</li>
+                    <li>24小时内交付，加急2小时出稿</li>
+                    <li>免费修改2次，7天售后保障</li>
+                    <li id="vipFeature2" style="display: none; color: #e74c3c; font-weight: bold;">✓ 会员代写8折优惠</li>
+                </ul>
+                <a href="tel:15882278642" class="btn btn-primary" style="width: 100%; background: #e74c3c; color: white;">
+                    📞 咨询代写服务
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 详细合同模板列举 -->
+    <section class="templates" id="templates-detail">
+        <div class="templates-container">
+            <div class="section-header">
+                <h2 class="section-title">合同模板详细分类</h2>
+                <p class="section-subtitle">点击"购买"按钮将合同加入购物车，支持单份购买，会员自动8折</p>
+                
+                <div id="vipBanner" class="vip-banner">
+                    🌟 尊贵的会员您好！您当前享受全场8折优惠，所有模板已自动打折
+                </div>
+            </div>
+
+            <div class="template-categories" id="templateCategories">
+                <!-- 合同分类将通过JS动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 法律文书代写详细板块 -->
+    <section class="document-writing" id="writing-detail">
+        <div class="writing-container">
+            <div style="text-align: center;">
+                <h2 class="section-title">法律文书代写服务</h2>
+                <div class="highlight-box">50元起 · 律师执笔 · 当日交付</div>
+                <p class="section-subtitle">专业律师为您量身定制各类法律文书，<span id="writingDiscount" style="color: #e74c3c; font-weight: bold; display: none;">会员享8折优惠</span></p>
+            </div>
+
+            <div class="service-types">
+                <div class="service-card">
+                    <h3>📄 诉讼文书</h3>
+                    <ul class="service-list">
+                        <li><span class="service-name">民事起诉状（借贷/离婚/合同）</span><span class="service-price" data-original="50">50<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">答辩状/反诉状</span><span class="service-price" data-original="80">80<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">上诉状</span><span class="service-price" data-original="100">100<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">再审申请书</span><span class="service-price" data-original="150">150<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">强制执行申请书</span><span class="service-price" data-original="80">80<span class="unit">元起</span></span></li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>📨 律师函件</h3>
+                    <ul class="service-list">
+                        <li><span class="service-name">律师函（催款/欠款）</span><span class="service-price" data-original="200">200<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">律师函（侵权警告/知识产权）</span><span class="service-price" data-original="300">300<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">催款函（非律师函）</span><span class="service-price" data-original="80">80<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">声明/公告（法律声明）</span><span class="service-price" data-original="100">100<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">法律意见书</span><span class="service-price" data-original="500">500<span class="unit">元起</span></span></li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>📋 合同起草审查</h3>
+                    <ul class="service-list">
+                        <li><span class="service-name">合同审查修改（附风险提示）</span><span class="service-price" data-original="100">100<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">合同起草（简易版，1-3页）</span><span class="service-price" data-original="200">200<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">合同起草（复杂版，3页以上）</span><span class="service-price" data-original="500">500<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">补充协议/变更协议</span><span class="service-price" data-original="150">150<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">合同终止/解除协议</span><span class="service-price" data-original="150">150<span class="unit">元起</span></span></li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>📑 仲裁非诉文书</h3>
+                    <ul class="service-list">
+                        <li><span class="service-name">劳动仲裁申请书</span><span class="service-price" data-original="100">100<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">商事仲裁申请书</span><span class="service-price" data-original="150">150<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">行政复议申请书</span><span class="service-price" data-original="150">150<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">刑事控告书/报案材料</span><span class="service-price" data-original="200">200<span class="unit">元起</span></span></li>
+                        <li><span class="service-name">证据清单/证据目录</span><span class="service-price" data-original="50">50<span class="unit">元起</span></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="process-section">
+                <h3 style="text-align: center; color: #1e3c72; font-size: 28px; margin-bottom: 10px;">服务流程</h3>
+                <p style="text-align: center; color: #666; margin-bottom: 40px;">简单4步，快速获取专业法律文书</p>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h4>咨询沟通</h4>
+                        <p>拨打158-8227-8642<br>或在线咨询案情</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h4>确认下单</h4>
+                        <p>确定文书类型<br>支付50%定金</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h4>律师撰写</h4>
+                        <p>专业律师执笔<br>24小时内完成</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h4>交付修改</h4>
+                        <p>发送Word文档<br>支持2次免费修改</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 50px;">
+                    <a href="tel:15882278642" class="btn btn-primary btn-large" style="margin-right: 20px; background: #e74c3c; color: white;">📞 立即咨询代写</a>
+                    <a href="#" class="btn btn-outline btn-large">💬 在线沟通案情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价格方案 -->
+    <section class="pricing" id="pricing">
+        <div class="pricing-container">
+            <h2 class="section-title">会员价格方案</h2>
+            <p class="section-subtitle">开通会员，享受全场8折优惠及更多特权</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>单份购买</h3>
+                    <div class="price">¥19-59<span>/份</span></div>
+                    <ul class="pricing-features">
+                        <li>单份合同模板下载</li>
+                        <li>Word格式可编辑</li>
+                        <li>使用说明文档</li>
+                        <li>7天售后支持</li>
+                        <li>代写服务原价</li>
+                    </ul>
+                    <button onclick="scrollToTemplates()" class="btn btn-outline btn-large" style="width: 100%;">选购单份模板</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="badge">最受欢迎</div>
+                    <h3>年度会员</h3>
+                    <div class="price">¥299<span>/年</span></div>
+                    <ul class="pricing-features">
+                        <li>全场合同模板8折优惠</li>
+                        <li>500+份模板免费下载</li>
+                        <li>法律文书代写8折优惠</li>
+                        <li>每月赠送1次免费代写</li>
+                        <li>合同审查不限次数</li>
+                        <li>专属客服优先服务</li>
+                    </ul>
+                    <button onclick="showVipModal()" class="btn btn-submit" style="width: 100%; font-size: 20px; padding: 15px; background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%); color: #1e3c72;">🌟 立即开通会员</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>企业法务套餐</h3>
+                    <div class="price">¥1999<span>/年</span></div>
+                    <ul class="pricing-features">
+                        <li>包含所有会员特权</li>
+                        <li>专属合同体系搭建</li>
+                        <li>每月代写服务2次</li>
+                        <li>1对1法律顾问咨询</li>
+                        <li>员工法律培训1次/年</li>
+                        <li>发票报销支持</li>
+                    </ul>
+                    <a href="tel:15882278642" class="btn btn-outline btn-large" style="width: 100%;">电话咨询</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 法律咨询区 -->
+    <section class="contact-section" id="contact">
+        <h2>需要专业法律建议？</h2>
+        <p style="font-size: 20px; opacity: 0.9;">专业律师团队为您提供合同审查、法律咨询、纠纷解决服务</p>
+        <div class="phone-display">158-8227-8642</div>
+        <a href="tel:15882278642" class="btn btn-primary btn-large">📞 立即拨打咨询热线</a>
+        <div class="contact-features" style="margin-top: 40px;">
+            <div class="contact-feature"><span>✓</span> 执业10年以上律师</div>
+            <div class="contact-feature"><span>✓</span> 首次咨询免费</div>
+            <div class="contact-feature"><span>✓</span> 7×12小时服务</div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>关于法契通</h4>
+                <p style="color: #aaa; line-height: 1.8;">专业合同模板下载与法律文书代写平台，致力于为企业与个人提供高质量的法律服务解决方案。</p>
+            </div>
+            <div class="footer-section">
+                <h4>服务项目</h4>
+                <ul>
+                    <li><a href="#templates-detail">合同模板下载</a></li>
+                    <li><a href="#writing-detail">起诉状代写</a></li>
+                    <li><a href="#writing-detail">律师函代发</a></li>
+                    <li><a href="#writing-detail">合同审查起草</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>联系方式</h4>
+                <ul>
+                    <li>📞 咨询热线：158-8227-8642</li>
+                    <li>📧 邮箱：64576988@qq.com</li>
+                    <li>⏰ 工作时间：周一至周日 9:00-21:00</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>服务保障</h4>
+                <p style="color: #aaa; line-height: 1.8;">所有模板均经专业律师审核<br>代写文书执业律师亲笔<br>支持7天无理由退换<br>严格保密客户信息</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 法契通 版权所有 | 会员享全场8折优惠</p>
+        </div>
+    </footer>
+
+    <!-- 浮动咨询按钮 -->
+    <a href="tel:15882278642" class="floating-cta">📞 立即咨询</a>
+
+    <script>
+        // 全局状态管理
+        let currentUser = null;
+        let cart = [];
+        
+        // 合同数据（全部36份合同）
+        const contractData = [
+            {
+                category: "🏢 企业经营类",
+                desc: "劳动合同、股权协议、商务合作",
+                items: [
+                    { name: "劳动合同（标准版）", price: 29, tag: "HOT", hot: true },
+                    { name: "保密协议（NDA）", price: 19, tag: null, hot: false },
+                    { name: "股权合作协议", price: 59, tag: "推荐", hot: false },
+                    { name: "购销合同（通用版）", price: 39, tag: null, hot: false },
+                    { name: "商铺租赁合同", price: 29, tag: null, hot: false },
+                    { name: "员工手册（完整版）", price: 49, tag: null, hot: false }
+                ]
+            },
+            {
+                category: "🏠 房产物业类",
+                desc: "房屋买卖、租赁装修、物业管理",
+                items: [
+                    { name: "房屋租赁合同", price: 19, tag: "热销", hot: true },
+                    { name: "二手房买卖合同", price: 39, tag: null, hot: false },
+                    { name: "房产抵押合同", price: 29, tag: null, hot: false },
+                    { name: "装修工程合同", price: 35, tag: "实用", hot: false },
+                    { name: "物业管理协议", price: 25, tag: null, hot: false },
+                    { name: "房屋居间合同", price: 29, tag: null, hot: false }
+                ]
+            },
+            {
+                category: "👤 个人事务类",
+                desc: "借贷、婚姻、继承、委托代理",
+                items: [
+                    { name: "借款协议（带担保）", price: 19, tag: "必备", hot: true },
+                    { name: "赠与合同", price: 15, tag: null, hot: false },
+                    { name: "离婚协议书（全面版）", price: 39, tag: "专业", hot: false },
+                    { name: "自书遗嘱范本", price: 29, tag: null, hot: false },
+                    { name: "委托代理合同", price: 19, tag: null, hot: false },
+                    { name: "合伙协议（个人）", price: 35, tag: null, hot: false }
+                ]
+            },
+            {
+                category: "💡 知识产权类",
+                desc: "商标、专利、著作权、技术转让",
+                items: [
+                    { name: "商标注册代理合同", price: 25, tag: null, hot: false },
+                    { name: "专利转让协议", price: 49, tag: "专业", hot: false },
+                    { name: "著作权许可合同", price: 35, tag: null, hot: false },
+                    { name: "技术转让合同", price: 59, tag: "企业", hot: true },
+                    { name: "软件授权协议", price: 39, tag: null, hot: false },
+                    { name: "保密与竞业限制协议", price: 35, tag: null, hot: false }
+                ]
+            },
+            {
+                category: "🌐 互联网/电商类",
+                desc: "软件开发、平台入驻、隐私政策",
+                items: [
+                    { name: "电商平台入驻协议", price: 35, tag: null, hot: false },
+                    { name: "软件开发合同", price: 49, tag: "IT", hot: true },
+                    { name: "网络推广服务合同", price: 29, tag: null, hot: false },
+                    { name: "用户服务协议（网站）", price: 39, tag: null, hot: false },
+                    { name: "隐私政策（GDPR/个保法）", price: 45, tag: "合规", hot: false },
+                    { name: "APP授权使用协议", price: 35, tag: null, hot: false }
+                ]
+            },
+            {
+                category: "📦 供应链/物流类",
+                desc: "运输、仓储、供货、报关",
+                items: [
+                    { name: "货物运输合同", price: 25, tag: null, hot: false },
+                    { name: "仓储保管合同", price: 29, tag: "物流", hot: false },
+                    { name: "长期供货合作协议", price: 35, tag: null, hot: false },
+                    { name: "代销合同（经销商）", price: 25, tag: null, hot: false },
+                    { name: "报关委托协议", price: 19, tag: null, hot: false },
+                    { name: "物流配送服务协议", price: 29, tag: null, hot: false }
+                ]
+            }
+        ];
+
+        // 初始化
+        window.onload = function() {
+            checkLoginStatus();
+            renderTemplates();
+            updateCartUI();
+        };
+
+        // 检查登录状态
+        function checkLoginStatus() {
+            const userData = localStorage.getItem('currentUser');
+            if (userData) {
+                currentUser = JSON.parse(userData);
+                updateUIForLoggedInUser();
+                applyVipDiscount();
+            }
+        }
+
+        // 渲染合同列表（支持单独购买）
+        function renderTemplates() {
+            const container = document.getElementById('templateCategories');
+            const isVip = currentUser && currentUser.isVip && new Date(currentUser.vipExpire) > new Date();
+            
+            container.innerHTML = contractData.map(cat => `
+                <div class="template-category">
+                    <h3>${cat.category}</h3>
+                    <p>${cat.desc}</p>
+                    <ul class="template-list">
+                        ${cat.items.map(item => {
+                            const finalPrice = isVip ? Math.round(item.price * 0.8) : item.price;
+                            const hasDiscount = isVip && finalPrice < item.price;
+                            
+                            return `
+                                <li>
+                                    <div class="template-info">
+                                        <span class="template-name">
+                                            ${item.name}
+                                            ${item.tag ? `<span class="template-tag ${item.hot ? 'hot' : ''}">${item.tag}</span>` : ''}
+                                        </span>
+                                    </div>
+                                    <div class="price-area">
+                                        ${hasDiscount ? `
+                                            <span class="price-tag original">¥${item.price}</span>
+                                            <span class="discount-badge">8折</span>
+                                        ` : ''}
+                                        <span class="price-tag discount">¥${finalPrice}</span>
+                                        <button onclick="addToCart('${item.name}', ${item.price}, ${finalPrice})" class="btn-buy-small">
+                                            购买
+                                        </button>
+                                    </div>
+                                </li>
+                            `;
+                        }).join('')}
+                    </ul>
+                    <button onclick="addCategoryToCart('${cat.category}')" class="btn btn-buy" style="width: 100%; margin-top: 15px;">
+                        购买本类全部模板（${isVip ? '已8折' : '享优惠'}）
+                    </button>
+                </div>
+            `).join('');
+        }
+
+        // 添加到购物车（单独购买功能）
+        function addToCart(name, originalPrice, finalPrice) {
+            if (!currentUser) {
+                showToast('请先登录后再购买', 'error');
+                showLoginModal();
+                return;
+            }
+            
+            const exists = cart.find(item => item.name === name);
+            if (exists) {
+                showToast('该商品已在购物车中', 'error');
+                return;
+            }
+            
+            cart.push({
+                name: name,
+                originalPrice: originalPrice,
+                finalPrice: finalPrice,
+                quantity: 1
+            });
+            
+            updateCartUI();
+            showToast('已添加到购物车');
+        }
+
+        // 添加整类到购物车
+        function addCategoryToCart(categoryName) {
+            if (!currentUser) {
+                showToast('请先登录后再购买', 'error');
+                showLoginModal();
+                return;
+            }
+            
+            const category = contractData.find(cat => cat.category === categoryName);
+            if (category) {
+                let added = 0;
+                category.items.forEach(item => {
+                    const finalPrice = currentUser.isVip ? Math.round(item.price * 0.8) : item.price;
+                    if (!cart.find(c => c.name === item.name)) {
+                        cart.push({
+                            name: item.name,
+                            originalPrice: item.price,
+                            finalPrice: finalPrice,
+                            quantity: 1
+                        });
+                        added++;
+                    }
+                });
+                
+                updateCartUI();
+                showToast(`已成功添加 ${added} 份合同到购物车`);
+            }
+        }
+
+        // 更新购物车UI
+        function updateCartUI() {
+            const count = document.getElementById('cartCount');
+            if (cart.length > 0) {
+                count.textContent = cart.length;
+                count.style.display = 'flex';
+            } else {
+                count.style.display = 'none';
+            }
+        }
+
+        // 显示购物车
+        function showCartModal() {
+            if (!currentUser) {
+                showToast('请先登录', 'error');
+                showLoginModal();
+                return;
+            }
+            
+            const modal = document.getElementById('cartModal');
+            const content = document.getElementById('cartContent');
+            
+            if (cart.length === 0) {
+                content.innerHTML = '<p style="text-align: center; color: #999; padding: 50px;">购物车是空的，快去选购合同模板吧！</p>';
+            } else {
+                const total = cart.reduce((sum, item) => sum + item.finalPrice, 0);
+                const originalTotal = cart.reduce((sum, item) => sum + item.originalPrice, 0);
+                const saved = originalTotal - total;
+                
+                content.innerHTML = `
+                    <div style="margin-bottom: 20px;">
+                        ${cart.map((item, index) => `
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 15px; border-bottom: 1px solid #eee; background: ${index % 2 === 0 ? '#f9f9f9' : 'white'}; border-radius: 8px; margin-bottom: 10px;">
+                                <div>
+                                    <div style="font-weight: bold; color: #333;">${item.name}</div>
+                                    <div style="font-size: 13px; color: #666; margin-top: 5px;">
+                                        ${item.originalPrice !== item.finalPrice ? `<span style="text-decoration: line-through;">原价¥${item.originalPrice}</span> ` : ''}
+                                        <span style="color: #e74c3c; font-weight: bold;">¥${item.finalPrice}</span>
+                                    </div>
+                                </div>
+                                <button onclick="removeFromCart(${index})" style="background: #ffebee; color: #e74c3c; border: none; padding: 5px 15px; border-radius: 5px; cursor: pointer;">删除</button>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div style="background: #f0f7ff; padding: 20px; border-radius: 10px; text-align: right;">
+                        <div style="font-size: 14px; color: #666; margin-bottom: 5px;">共 ${cart.length} 件商品</div>
+                        ${saved > 0 ? `<div style="font-size: 14px; color: #27ae60; margin-bottom: 5px;">会员节省：¥${saved}</div>` : ''}
+                        <div style="font-size: 24px; color: #e74c3c; font-weight: bold;">应付总额：¥${total}</div>
+                    </div>
+                `;
+            }
+            
+            modal.style.display = 'block';
+        }
+
+        // 从购物车删除
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCartUI();
+            showCartModal();
+        }
+
+        // 清空购物车
+        function clearCart() {
+            cart = [];
+            updateCartUI();
+            closeModal('cartModal');
+            showToast('购物车已清空');
+        }
+
+        // 结算
+        function checkout() {
+            if (cart.length === 0) {
+                showToast('购物车是空的', 'error');
+                return;
+            }
+            const total = cart.reduce((sum, item) => sum + item.finalPrice, 0);
+            closeModal('cartModal');
+            showPaymentModal(total);
+        }
+
+        // 登录相关函数
+        function showLoginModal() {
+            document.getElementById('loginModal').style.display = 'block';
+        }
+
+        function showVipModal() {
+            if (!currentUser) {
+                showToast('请先登录', 'error');
+                showLoginModal();
+                return;
+            }
+            document.getElementById('vipModal').style.display = 'block';
+        }
+
+        let isLoginMode = true;
+        function toggleAuthMode() {
+            isLoginMode = !isLoginMode;
+            document.getElementById('loginForm').style.display = isLoginMode ? 'block' : 'none';
+            document.getElementById('registerForm').style.display = isLoginMode ? 'none' : 'block';
+            document.getElementById('loginTitle').textContent = isLoginMode ? '用户登录' : '用户注册';
+            document.getElementById('switchText').textContent = isLoginMode ? '还没有账号？' : '已有账号？';
+            document.getElementById('switchBtn').textContent = isLoginMode ? '立即注册' : '立即登录';
+        }
+
+        function handleLogin(e) {
+            e.preventDefault();
+            const phone = document.getElementById('loginPhone').value;
+            const password = document.getElementById('loginPassword').value;
+            
+            const users = JSON.parse(localStorage.getItem('users') || '[]');
+            const user = users.find(u => u.phone === phone && u.password === password);
+            
+            if (user) {
+                currentUser = user;
+                localStorage.setItem('currentUser', JSON.stringify(user));
+                closeModal('loginModal');
+                updateUIForLoggedInUser();
+                applyVipDiscount();
+                showToast('登录成功！');
+            } else {
+                showToast('手机号或密码错误', 'error');
+            }
+        }
+
+        function handleRegister(e) {
+            e.preventDefault();
+            const phone = document.getElementById('regPhone').value;
+            const password = document.getElementById('regPassword').value;
+            const confirm = document.getElementById('regConfirm').value;
+            
+            if (password !== confirm) {
+                showToast('两次输入的密码不一致', 'error');
+                return;
+            }
+            
+            let users = JSON.parse(localStorage.getItem('users') || '[]');
+            if (users.find(u => u.phone === phone)) {
+                showToast('该手机号已注册', 'error');
+                return;
+            }
+            
+            const newUser = {
+                phone: phone,
+                password: password,
+                isVip: false,
+                vipExpire: null,
+                registerTime: new Date().toISOString()
+            };
+            
+            users.push(newUser);
+            localStorage.setItem('users', JSON.stringify(users));
+            localStorage.setItem('currentUser', JSON.stringify(newUser));
+            
+            currentUser = newUser;
+            closeModal('loginModal');
+            updateUIForLoggedInUser();
+            showToast('注册成功！欢迎加入法契通');
+        }
+
+        function updateUIForLoggedInUser() {
+            const userSection = document.getElementById('userSection');
+            const isVip = currentUser.isVip && new Date(currentUser.vipExpire) > new Date();
+            
+            userSection.innerHTML = `
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    ${isVip ? `<span class="vip-badge">🌟 VIP会员</span>` : ''}
+                    <span style="color: #333; font-weight: 500;">${currentUser.phone}</span>
+                    ${!isVip ? `<button onclick="showVipModal()" class="btn-nav btn-vip">开通会员</button>` : ''}
+                    <button onclick="logout()" class="btn-nav btn-login" style="padding: 5px 15px; font-size: 13px;">退出</button>
+                </div>
+            `;
+            
+            if (isVip) {
+                document.getElementById('vipBanner').classList.add('active');
+                document.getElementById('normalPrice').style.display = 'none';
+                document.getElementById('vipPriceDisplay').style.display = 'block';
+                document.getElementById('vipFeature1').style.display = 'flex';
+                document.getElementById('vipFeature2').style.display = 'flex';
+                document.getElementById('writingDiscount').style.display = 'inline';
+            }
+        }
+
+        function applyVipDiscount() {
+            renderTemplates();
+        }
+
+        function processVipPayment() {
+            closeModal('vipModal');
+            showPaymentModal(299, '会员开通');
+        }
+
+        function showPaymentModal(amount, desc) {
+            document.getElementById('payAmount').textContent = `¥${amount}${desc ? '（' + desc + '）' : ''}`;
+            document.getElementById('paymentModal').style.display = 'block';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+            if (modalId === 'loginModal' && !isLoginMode) toggleAuthMode();
+        }
+
+        function logout() {
+            currentUser = null;
+            cart = [];
+            localStorage.removeItem('currentUser');
+            updateCartUI();
+            location.reload();
+        }
+
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = 'toast ' + (type === 'error' ? 'error' : '');
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+
+        function scrollToTemplates() {
+            document.getElementById('templates-detail').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // 点击外部关闭
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+                if (event.target.id === 'loginModal' && !isLoginMode) toggleAuthMode();
+            }
+        }
+
+        // ESC键关闭
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                document.querySelectorAll('.modal').forEach(modal => modal.style.display = 'none');
+            }
+        });
+    </script>
+
+</body>
+</html>
